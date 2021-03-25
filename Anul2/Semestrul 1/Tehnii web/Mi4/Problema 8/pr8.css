@@ -1,0 +1,55 @@
+	body{
+			background:skyblue;
+			counter-reset: my-first-counter;
+			counter-reset: section 2 elemente 4;
+		}
+	body *{
+			
+}			
+		div#container{
+			margin-left:15%;
+			margin-right:15%;
+			border-left:2px solid grey;
+			border-right:2px solid grey;
+			background:white;
+			padding:5%;
+			counter-reset: my-first-counter;
+		}
+
+		li.fara_alibi{
+			
+			color:red;
+			font-weight:bold;
+			counter-increment: elemente;
+			
+		}
+		li.fara_alibi:after{
+			
+			content: url(smiley_hot_mic_20x19.png)"(" counter(elemente) ")";
+			
+		}
+		ol:before{
+			
+			content:"Total pisici:"counter(my-first-counter);
+			counter-reset: my-sec-counter;
+			counter-increment: section;
+			
+		}
+		li{
+			
+			counter-increment: my-first-counter;
+			
+				content:  counter(section) ". ";
+		}
+		li::before {
+		
+		counter-increment: my-sec-counter;
+		content: counter(section) "." counter(my-sec-counter, lower-alpha) ". ";
+		}	
+	.cont_lista{
+		
+	}
+	ol li{
+  list-style-type: none;
+  
+}

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1542049652 source:c:\users\bianca\desktop\programare\fmi\algoritmi si structuri de date-laborator\tema 6\probl 2\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+

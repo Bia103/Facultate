@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1571308191 source:c:\users\bianca\desktop\programare\fmi\anul 2\tehniciavansatedeprogramare\tema1\exercitiul din tema\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+	<cstring>
+	<math.h>
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1558555825 source:c:\users\bianca\desktop\programare\fmi\algoritmi grafuri\ce am lucrat eu in plus\incerc prim\main.cpp
+	<iostream>
+	<vector>
+	<utility>
+	<algorithm>
+	<fstream>
+	<list>
+	<set>
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1556019984 source:c:\users\bianca\desktop\programare\fmi\algoritmi grafuri\laborator 5\pb2\main.cpp
+	<iostream>
+	<vector>
+	<utility>
+	<algorithm>
+	<fstream>
+	<list>
+	<set>
+

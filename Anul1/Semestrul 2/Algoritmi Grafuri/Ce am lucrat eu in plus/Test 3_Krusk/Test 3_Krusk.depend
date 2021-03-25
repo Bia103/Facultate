@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1558737307 source:c:\users\bianca\desktop\programare\fmi\algoritmi grafuri\ce am lucrat eu in plus\test 3_krusk\main.cpp
+	<iostream>
+	<list>
+	<vector>
+	<algorithm>
+

@@ -1,0 +1,21 @@
+thead{
+	display:none;
+}
+body{
+
+}
+td{
+
+}
+ td:nth-child(1)::after{
+content:", ";
+
+ }
+  td:nth-child(2)::after{
+content:", ";
+
+ }
+   td:nth-child(1)::before{
+content:"• ";
+
+ }

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1554810906 source:c:\users\bianca\desktop\programare\fmi\algoritmi grafuri\laborator 4\cladiri_centrale\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<algorithm>
+	<list>
+	<cmath>
+	<math.h>
+

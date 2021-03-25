@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	div#soare{
+	width:100px;
+	height:100px;
+	background:yellow;
+	border-radius:50%;
+	position:absolute;
+	top:300px;
+	animation-name:rasarit;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+	left:70px;
+	
+	}
+	div#fereastra{
+	width:500px;
+	height:250px;
+	background:skyblue;
+	border:7px inset brown;
+	position:relative;
+	overflow:hidden;
+	animation-name:cer;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+	animation-direction: alternate;
+	
+	}
+	@keyframes cer{
+	0%{
+	background-color:black;
+	}
+	50%{
+	background-color:navy;
+	}
+	100%{
+	background-color:skyblue;
+	}
+	}
+	@keyframes rasarit{
+	from {
+	top:300px;
+		left:70px;
+		transform: rotate(0deg)
+		           translate(-150px)
+		           rotate(0deg);
+	}
+	to {
+		transform: rotate(180deg)
+		           translate(-150px) 
+		           rotate(-180deg);
+	top:300px;
+		left:140px;
+	}
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="fereastra">
+<div id="soare">
+
+</div>
+</div>
+
+</body>
+</html>
+

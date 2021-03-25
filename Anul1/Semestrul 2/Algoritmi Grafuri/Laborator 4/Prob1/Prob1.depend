@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1554807369 source:c:\users\bianca\desktop\programare\fmi\algoritmi grafuri\laborator 4\prob1\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<algorithm>
+	<list>
+

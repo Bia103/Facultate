@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1551195151 source:c:\users\bianca\desktop\programare\fmi\programare orientata pe obiecte\seminar\p0.2\main.cpp
+	<iostream>
+	<list>
+	<fstream>
+	<list>
+	<utility>
+	<queue>
+

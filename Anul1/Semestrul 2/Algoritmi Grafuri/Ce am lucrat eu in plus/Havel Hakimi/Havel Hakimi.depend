@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1558287261 source:c:\users\bianca\desktop\programare\fmi\algoritmi grafuri\ce am lucrat eu in plus\havel hakimi\main.cpp
+	<vector>
+	<utility>
+	<algorithm>
+	<fstream>
+	<list>
+	<iostream>
+	<utility>
+	<algorithm>
+	<list>
+	<fstream>
+

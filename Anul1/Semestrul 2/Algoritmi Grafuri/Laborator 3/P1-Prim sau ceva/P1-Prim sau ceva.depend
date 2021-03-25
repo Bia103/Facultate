@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1553597452 source:c:\users\bianca\desktop\programare\fmi\algoritmi grafuri\laborator 3\p1-prim sau ceva\main.cpp
+	<iostream>
+	<vector>
+	<utility>
+	<algorithm>
+	<fstream>
+	<list>
+

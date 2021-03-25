@@ -1,0 +1,53 @@
+
+
+#c0 .dv {
+ 
+	display: inline-block;
+	vertical-align:-50%;
+	text-align: center;
+}
+#c1 .dv {
+ 
+	margin-left:50px;
+	position: relative;
+	top: 50px;
+	
+}
+div.container#c2 .dv{
+		  display: flex;
+ align-self: center; 
+  justify-content: center;
+  align-items: center;
+}
+#c2 .dv {
+	 
+	margin-left:50px;
+	
+	
+}
+div.container#c2 {
+    display: flex;
+ 
+  justify-content: center;
+ 
+
+}
+div.container{
+		
+}
+div.container#c3 {
+    display: flex;
+ align-self: center; 
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container > #c3.dv {
+
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1549109294 source:c:\users\bianca\desktop\programare\fmi\programare procedurala\model de examen\subiectul iii\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+

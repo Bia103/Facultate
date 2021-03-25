@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1572303266 source:c:\users\bianca\desktop\programare\fmi\anul 2\tehniciavansatedeprogramare\tema 2\intervale si sali\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+

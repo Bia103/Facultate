@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.cerc{
+	width:300px;
+	height:300px;
+	background:yellow;
+	border-radius:50%;
+	position:relative;
+	
+	
+	 
+	}
+.cerc:hover .spranceana{
+	  transition-duration: 2s;
+	  transform: rotate(135deg);
+	  background: black;
+}
+.cerc:hover .spranceana1{
+	  transition-duration: 2s;
+	  transform: rotate(-135deg);
+	  background: black;
+}
+.cerc:hover .cerc2{
+position: absolute;
+		box-shadow:25px 25px 7px 2px red inset;  
+		  
+	  transition-duration: 2s;
+	  
+	  
+}
+.cerc:hover .cerc1{
+position: absolute;
+		box-shadow:25px 25px 7px 2px red inset;  
+		  
+	  transition-duration: 2s;
+	  
+	  
+}
+.bottomleft {
+  position: absolute;
+  bottom: -21px;
+  left: 90px;
+  font-size: 18px;
+  display:none;
+   color: red;
+  
+}
+
+.cerc:hover .bottomleft {
+display:block;
+
+}
+.spranceana{
+	
+	background:pink;
+	position:absolute;
+	 
+  top: 70px;
+  right: 205px;
+  width: 8px;
+  height: 50px;
+  transform:rotate(45deg);
+  
+}
+.spranceana1{
+	
+	background:pink;
+	position:absolute;
+	 
+  top: 70px;
+  right: 95px;
+  width: 8px;
+  height: 50px;
+  transform:rotate(-45deg);
+}
+.cerc1{
+	top:120px;
+	right: 100px;
+	width:25px;
+	height:25px;
+	background:black;
+	border-radius:50%;
+	position:absolute;
+	
+	}
+.cerc2{
+	top:120px;
+	right: 180px;
+	width:25px;
+	height:25px;
+	background:black;
+	border-radius:50%;
+	position:absolute;
+	}
+
+
+</style>
+</head>
+<body>
+
+<div class="cerc">
+<div class="spranceana"></div>
+<div class="spranceana1"></div>
+<div class="cerc1"></div>
+<div class="cerc2"></div>
+<div class="bottomleft">Lasa-ma in pace</div>
+</div>
+
+</body>

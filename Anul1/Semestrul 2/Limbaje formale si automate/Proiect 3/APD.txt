@@ -1,0 +1,42 @@
+5
+1
+4
+9
+0 1
+a
+z
+Az
+0 1
+a
+A
+AA
+1 0
+a
+A
+A
+0 2
+b
+A
+BBBA
+2 2
+b
+B
+BBBB
+2 3
+c
+B
+l
+3 3
+c
+B
+l
+3 3
+d
+A
+l
+3 4
+l
+z
+l
+aabcccd
+0

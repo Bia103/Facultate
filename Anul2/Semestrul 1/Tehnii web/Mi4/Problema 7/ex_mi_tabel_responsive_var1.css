@@ -1,0 +1,124 @@
+		table#tab_preturi,table#tab_preturi tr{
+			border:none;
+			padding:0;
+			margin:0;
+			display:block;
+			
+		}
+		table#tab_preturi td{
+			display:block;
+			padding:0.2em;
+			box-sizing:border-box; /*ca sa imi includa si paddingul in width;*/
+			text-align:center;
+			border-style:solid;
+		}
+		table#tab_preturi td:first-child{
+			color:red;
+			text-transform: uppercase;
+			background-color:lightblue;
+			border-top-left-radius:75%;
+			border-top-right-radius:75%;
+			text-align:center;
+			border: 1px black;
+			border-style: solid;
+			letter-spacing: 3px;
+			
+		}
+		table#tab_preturi thead{
+			display:none;
+		}
+		td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+		table#tab_preturi tbody tr:first-child td:nth-child(2)::after{
+			content:"1 luna ";
+			margin:0;
+			 font-weight: normal;
+			
+			
+			 
+		}
+		table#tab_preturi tbody tr:nth-child(2) td:nth-child(2)::after{
+			content:"1 an ";
+			 font-weight: normal;
+			
+			 
+		}
+		table#tab_preturi tbody tr:nth-child(3) td:nth-child(2)::after{
+			content:"2 ani ";
+			 font-weight: normal;
+			 
+		}
+		table#tab_preturi tbody tr:nth-child(4) td:nth-child(2)::after{
+			content:"2 ani ";
+			 font-weight: normal;
+			 
+		}
+		table#tab_preturi tbody tr td{
+			 border: 1px solid;
+			 border-collapse: collapse;
+		}
+		table#tab_preturi tbody tr td:nth-child(2){
+			 border: 3px dotted;
+			 border-collapse: collapse;
+		}
+		table#tab_preturi tbody td:nth-child(3)::before{
+			content:"Layere ";
+			
+			
+		}
+		table#tab_preturi tbody td:nth-child(4)::before{
+			content:"Multi user ";
+		}
+		table#tab_preturi tbody td:nth-child(5)::before{
+			content:"Efecte speciale ";
+		}
+		table#tab_preturi tbody td:nth-child(6)::before{
+			content:"Tool Animatie ";
+			
+		}
+		table#tab_preturi tbody td:nth-child(7)::before{
+			content:"Watermark ";
+			
+		}
+		table#tab_preturi tbody td:nth-child(8)::before{
+			content:"Watermark ";
+			
+		}
+		table#tab_preturi td{
+			border-bottom:none;
+			border-top:none;
+			float:left;
+			width:80%;
+			padding-left:2%;
+			padding-right:2%;
+		}
+		table#tab_preturi td::before{
+			float:left;
+			width:35%;
+			
+			font-weight:bold;
+			margin-right:0.5em;
+			padding:0.1em;
+			line-height:100%;
+		}
+		table#tab_preturi td::after{
+			float:left;
+			width:35%;
+			
+			font-weight:bold;
+			margin-right:0.5em;
+			padding:0.1em;
+			line-height:100%;
+		}
+		table#tab_preturi td:last-child{
+			
+		}
+		table#tab_preturi tr:first-child  td:first-child{
+			
+		}
+		table#tab_preturi tr:last-child td:last-child{
+			
+		}

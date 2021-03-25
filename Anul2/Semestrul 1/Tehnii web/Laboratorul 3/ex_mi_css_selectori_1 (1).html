@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Titlu</title>
+	<style>
+	/* 7 */
+	ol li{
+   counter-increment: list;
+   list-style-type: none;
+   color: blue;
+   font-weight: bold;
+}
+	ol li::before {
+	content: counter(list, armenian) ".";
+	color: red;
+	font-style:italic;
+
+	}
+	/* 1 */
+	th
+    {
+      background-color:navy;
+      font-family: "Arial Black", Gadget, sans-serif;
+	  color:white;
+    }
+	/* 2 */
+	tfoot {
+		background: lime;
+		font-style: italic;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+	/* 4 nu am stiut cum sa fac altfel */
+	th:first-child,td:first-child{
+		text-decoration: underline;
+	}
+	/* 3 */
+	table, td, th {
+		border: 1px solid black;
+		caption-side: bottom;
+	}
+	table {
+		border-collapse: collapse;
+		border: 4px solid navy;
+		
+	}
+	/* 5 */
+	caption {
+	margin-top: 5px;
+	text-decoration: overline line-through;
+
+	}
+	/* 6 */
+	img:hover {
+		cursor: crosshair;
+		outline: 2px solid pink; 
+		outline-style:dotted;
+	}
+	/* 8 */
+	tbody > tr > td:not(:nth-child(4)):nth-child(even)::first-letter{
+		font-size: 200%;
+		background:lightblue;
+	}
+	tbody > tr > td:not(:nth-child(4)):nth-child(odd)::first-letter{
+		font-size: 200%;
+		background:pink;
+	}
+	/* 9 */
+	a:hover {
+		font-size: 20px;
+	}
+	a:active {
+  background: yellow;
+} 
+	/* 10 */
+	div:not(:nth-last-child(2)){
+		  letter-spacing: 3px;
+	}
+	</style>
+</head>
+<body>
+	<table id="tab_fl">
+	
+		<thead>
+			<tr>
+				<th>Nume</th>
+				<th>Prenume</th>
+				<th>Ocupatie</th>
+				<th>Hobby-uri</th>
+				<th>Poza</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Flutureanu</td>
+				<td>Petala</td>
+				<td>instructor de zbor</td>
+				<td>
+					<ol>
+						<li>acrobatiile in aer</li>
+					</ol>
+				</td>
+				<td><img src="http://irinaciocan.ro/tehnici_web/imagini/fluture1a.png" alt="Flutureanu"></td>
+			</tr>
+			<tr>
+				<td>Fluflututurescu</td>
+				<td>Flu-flu</td>
+				<td>lo-logoped</td>
+				<td>
+					<ol>
+						<li>zbu-zbu-zburatul pe-pe c-c-campie</li>
+					</ol>
+				</td>
+				<td><img src="http://irinaciocan.ro/tehnici_web/imagini/fluture2a.png" alt="Fluflututurescu"></td>
+			</tr>
+			<tr>
+				<td>Fluturache</td>
+				<td>Ion</td>
+				<td>negustor de polen</td>
+				<td>
+					<ol>
+						<li>botanica</li>
+						<li>pictura</li>
+					</ol>
+				</td>
+				<td><img src="http://irinaciocan.ro/tehnici_web/imagini/fluture3a.png" alt="Fluturache"></td>
+			</tr>
+			<tr>
+				<td>Omiduta</td>
+				<td>Omidon</td>
+				<td>mancator de frunze</td>
+				<td>
+					<ol>
+						<li>actoria</li>
+						<li>deghizatul in fluture</li>
+					</ol>
+				</td>
+				<td><img src="http://irinaciocan.ro/tehnici_web/imagini/fluture4a.png" alt="Omiduta"></td>
+			</tr>
+			<tr>
+				<td>Fluturong</td>
+				<td>Zbarr</td>
+				<td>luptator profesionist</td>
+				<td>
+					<ol>
+						<li>artele martiale</li>
+						<li>batut paianjenii</li>
+					</ol>
+				</td>
+				<td><img src="http://irinaciocan.ro/tehnici_web/imagini/fluture5a.png" alt="Omiduta"></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>
+					Concluzii:
+				</td>
+				<td colspan="4">
+					Toti fluturii sunt frumosi!
+				</td>
+			</tr>
+		</tfoot>
+<caption>Multi fluturi</caption>
+	</table>
+	<div>
+		<p>paragraf</p>
+		<p>paragraf</p>
+		<p>paragraf</p>
+	</div>
+		<div>
+		<p>paragraf</p>
+		<p>paragraf</p>
+		<p>paragraf</p>
+		<p>paragraf</p>
+	</div>
+	<div>
+		<p>paragraf</p>
+		<p>paragraf</p>
+		<p>paragraf</p>
+		<p>paragraf</p>
+		<p>paragraf</p>
+	</div>
+	<hr/>
+	<div>
+		<p>paragraf</p>
+		<p>paragraf</p>
+		<p>paragraf</p>
+		<p>paragraf</p>
+		<p>paragraf</p>
+	</div>	
+	<a href="https://www.google.com/?hl=ro"> https://www.google.com/?hl=ro </a>
+</body>
+</html>
